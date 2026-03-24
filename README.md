@@ -175,6 +175,10 @@ Keep it practitioner-level. No fluff. No theory without frameworks.
 - [Claude](https://claude.ai) by Anthropic
 - [Claude Code](https://claude.ai/code)
 
+## Acknowledgments
+
+- Several frameworks (RevOps, AEO, cold email, programmatic SEO, marketing psychology) were adapted from [marketingskills](https://github.com/coreyhaines31/marketingskills) by [Corey Haines](https://corey.co), licensed under MIT.
+
 ---
 
 *If this helped you build something, tag [@scottschmidt12](https://linkedin.com/in/scottschmidt12) on LinkedIn.*
