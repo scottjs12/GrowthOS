@@ -198,7 +198,7 @@ test('conversion event fires on CTA click', ...)
 ```
 
 Run with: `npx playwright test` before every production deploy.
-File test results in `10_growth-engineer/lp-builds/[page-name]/test-results/`.
+File test results in `clients/[client-name]/growth-engineer/lp-builds/[page-name]/test-results/`.
 Ops does not sign off on a page without a passing test report attached.
 
 ### Figma → Code Workflow (Figma Code Connect)
@@ -248,8 +248,8 @@ Before starting any build:
 
 1. **LP builds** — deployed to client LP domain with preview URL shared first
 2. **A/B test variants** — deployed with variant URLs shared with CRO for sign-off
-3. **Tracking implementation** — validation screenshots filed in `10_growth-engineer/tracking/`
-4. **HTML ad templates** — filed in `10_growth-engineer/html-ads/` with variants spec sheet
+3. **Tracking implementation** — validation screenshots filed in `clients/[client-name]/growth-engineer/tracking/`
+4. **HTML ad templates** — filed in `clients/[client-name]/growth-engineer/html-ads/` with variants spec sheet
 5. **build-log.md** — every build logged: brief ref, deploy URL, tracking confirmed, date
 
 ---

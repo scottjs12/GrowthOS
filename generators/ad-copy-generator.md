@@ -8,7 +8,7 @@
 - Variants organized by angle (pain, identity, proof, curiosity, aspirational)
 
 ## What You Need First
-- [ ] ICP profile (from `01_growth-researcher/ICP-profiles.md` or your own)
+- [ ] ICP profile (from `clients/[client-name]/researcher/icp-profiles.md` or your own)
 - [ ] Product/service description and key value props
 - [ ] Target platform(s) and format(s)
 - [ ] Any existing copy performance data (optional — helps avoid failed angles)
@@ -94,5 +94,5 @@ Rank the variants by predicted performance (best to worst) and explain your reas
 
 ## Tips
 - Run Step 2 again with different ICP segments to generate segment-specific angles
-- Feed winning ad copy back into `02_content-writer/copy-bank.md` for future reference
+- Feed winning ad copy back into `clients/[client-name]/content-writer/copy-bank.md` for future reference
 - After running ads, use the Creative Testing Protocol from Paid agent to structure your A/B test

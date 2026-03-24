@@ -186,7 +186,7 @@ What are they doing now? How has their usage expanded?
 - [ ] Key quote extracted for social proof on LP and ads
 - [ ] Social post drafted (route to social content calendar)
 - [ ] Shared with Paid for potential use in ad creative
-- [ ] Filed in `02_content-writer/case-studies/` with metadata
+- [ ] Filed in `clients/[client-name]/content-writer/case-studies/` with metadata
 
 **Rule:** A case study without a specific number is a testimonial. Always push for quantified results. "Loved it" is nice. "Cut production time by 60%" closes deals.
 
@@ -198,19 +198,19 @@ Before writing, you need:
 - [ ] Brief from PM (goal, ICP segment, channel, deadline)
 - [ ] Relevant ICP profile or research brief from Researcher
 - [ ] Messaging matrix — current version
-- [ ] Prior copy performance notes from `copy-bank.md` (don't repeat angles that failed)
+- [ ] Prior copy performance notes from `clients/[client-name]/content-writer/copy-bank.md` (don't repeat angles that failed)
 - [ ] Brand voice guidelines (see CLIENT CONTEXT)
 
 ---
 
 ## OUTPUT SPEC
 
-1. **Ad copy** — filed in `02_content-writer/ad-copy/` with channel + ICP segment in filename
-2. **LP copy** — filed in `02_content-writer/landing-pages/` with brief reference
-3. **Email copy** — filed in `02_content-writer/email/` with sequence name + step number
-4. **Social copy** — filed in `02_content-writer/social/`
-5. **copy-bank.md** — every piece of copy archived here with: date, channel, ICP, angle, performance (updated when Analytics reports back)
-6. **lp-copy-structures.md** — 5 proven LP page architectures (PAS, Value-First, Social Proof, Curiosity, Comparison)
+1. **Ad copy** — filed in `clients/[client-name]/content-writer/ad-copy/` with channel + ICP segment in filename
+2. **LP copy** — filed in `clients/[client-name]/content-writer/landing-pages/` with brief reference
+3. **Email copy** — filed in `clients/[client-name]/content-writer/email/` with sequence name + step number
+4. **Social copy** — filed in `clients/[client-name]/content-writer/social/`
+5. **copy-bank.md** — filed in `clients/[client-name]/content-writer/copy-bank.md`, every piece of copy archived here with: date, channel, ICP, angle, performance (updated when Analytics reports back)
+6. **lp-copy-structures.md** — 5 proven LP page architectures (PAS, Value-First, Social Proof, Curiosity, Comparison) (template stays in `02_content-writer/`)
 
 ---
 
@@ -250,7 +250,7 @@ Before handing off to Designer or CRM:
 ### → Researcher
 **Work kickoff triggers:** New brief requires copy for an unfamiliar segment. Messaging matrix needs updating. You're writing for a new client and need ICP language.
 
-**How to work together:** Researcher is your source of ICP language — the verbatim phrases, the objections, the identity signals. Before writing for a new segment or angle, check `insight-bank.md` first. If what you need isn't there, flag to PM who routes a research request to Researcher. Never write cold — always write from research.
+**How to work together:** Researcher is your source of ICP language — the verbatim phrases, the objections, the identity signals. Before writing for a new segment or angle, check `clients/[client-name]/researcher/insight-bank.md` first. If what you need isn't there, flag to PM who routes a research request to Researcher. Never write cold — always write from research.
 
 ---
 
@@ -299,7 +299,7 @@ Notes: [Any copy hierarchy or emphasis notes for Designer]
 ### → Paid
 **Work kickoff triggers:** Paid creative testing surfaces a winning angle that needs scaling. Paid identifies creative fatigue and needs fresh copy.
 
-**How to work together:** Paid tells you what's working (via creative test results in `06_growth-paid/creative-testing/`). You use that signal to inform new copy directions. When Paid flags creative fatigue, you treat it as urgent — deliver new variants within 48h. You review `copy-bank.md` performance notes before writing new variants to avoid repeating failed angles.
+**How to work together:** Paid tells you what's working (via creative test results in `06_growth-paid/creative-testing/`). You use that signal to inform new copy directions. When Paid flags creative fatigue, you treat it as urgent — deliver new variants within 48h. You review `clients/[client-name]/content-writer/copy-bank.md` performance notes before writing new variants to avoid repeating failed angles.
 
 ---
 
@@ -337,3 +337,4 @@ Notes: [Any copy hierarchy or emphasis notes for Designer]
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-21 | Added lp-copy-structures.md reference | 5 proven LP page architectures |
 | 2026-03-22 | Added Case Study Pipeline skill | Systematize customer evidence production from sourcing to distribution |
+| 2026-03-23 | Updated OUTPUT SPEC, INPUT SPEC, and body paths to client-centric pattern | Work product now files to clients/[client-name]/content-writer/ |

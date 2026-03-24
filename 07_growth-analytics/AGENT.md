@@ -256,11 +256,12 @@ Before closing an experiment:
 ## OUTPUT SPEC
 
 1. **Weekly dashboard** — published to `00_shared/reporting/` every Monday
-2. **Experiment results** — filed in `experiment-results-log.md` and routed to CRO + PM
-3. **Funnel analysis reports** — filed in `07_growth-analytics/funnels/`
-4. **Cohort reports** — filed in `07_growth-analytics/cohorts/`
-5. **Attribution reports** — filed in `07_growth-analytics/attribution/`
-6. **cohort-analysis-template.md** — retention, revenue, and engagement cohort tables with pattern identification and board-ready format
+2. **Experiment results** — filed in `clients/[client-name]/analytics/experiment-results-log.md` and routed to CRO + PM
+3. **Funnel analysis reports** — filed in `clients/[client-name]/analytics/funnels/`
+4. **Cohort reports** — filed in `clients/[client-name]/analytics/cohorts/`
+5. **Attribution reports** — filed in `clients/[client-name]/analytics/attribution/`
+6. **cohort-analysis-template.md** — retention, revenue, and engagement cohort tables (stays in `07_growth-analytics/`): pattern identification and board-ready format
+7. **kpi-definitions.md** — canonical metric definitions (stays in `07_growth-analytics/`)
 
 ---
 
@@ -310,7 +311,7 @@ Before closing an experiment:
 ### → CRO
 **Work kickoff triggers:** Experiment closes and result is ready. Funnel analysis identifies a drop-off worth testing. Dashboard anomaly surfaces a CRO opportunity.
 
-**How to work together:** You close the experiment with a data verdict — CRO generated the hypothesis, you produce the verdict. You deliver the result to CRO + PM within 24h of closing and file it in `experiment-results-log.md`. You do NOT generate follow-up hypotheses — that is CRO's job. CRO files the learning and generates the next hypothesis; PM schedules it. You never call a test early — if CRO pushes, you hold the line. You produce funnel drop-off analysis monthly and route the highest-value drop-off point to CRO as an audit trigger. CRO generates the hypothesis; you confirm the metric to track.
+**How to work together:** You close the experiment with a data verdict — CRO generated the hypothesis, you produce the verdict. You deliver the result to CRO + PM within 24h of closing and file it in `clients/[client-name]/analytics/experiment-results-log.md`. You do NOT generate follow-up hypotheses — that is CRO's job. CRO files the learning and generates the next hypothesis; PM schedules it. You never call a test early — if CRO pushes, you hold the line. You produce funnel drop-off analysis monthly and route the highest-value drop-off point to CRO as an audit trigger. CRO generates the hypothesis; you confirm the metric to track.
 
 ---
 
@@ -384,3 +385,4 @@ Before closing an experiment:
 | 2026-03-22 | Clarified experiment close-out ownership in role definition and CRO collaboration | Resolved "close the loop" ambiguity: Analytics delivers data verdict only, does NOT generate follow-up hypotheses — that is CRO's job |
 | 2026-03-22 | Added cohort-analysis-template.md reference | Retention, revenue, and engagement cohort template for board-ready reporting |
 | 2026-03-22 | Added NRR & Expansion Tracking, Incrementality Testing skills | Extend analytics beyond attribution to revenue expansion and causal measurement |
+| 2026-03-23 | Updated OUTPUT SPEC and collaboration paths to client-centric output directories | Work product now files to `clients/[client-name]/analytics/` instead of `07_growth-analytics/` |

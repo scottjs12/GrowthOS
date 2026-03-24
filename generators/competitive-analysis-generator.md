@@ -124,6 +124,6 @@ Route recommendations to PM for sprint planning.
 ## Tips
 - Cap at 5 competitors. More than 5 = you're tracking the market, not analyzing competitors.
 - Update quarterly — or immediately when a competitor makes a major move
-- File in `01_growth-researcher/competitive-intel/` and share with PM
+- File in `clients/[client-name]/researcher/competitive-intel/` and share with PM
 - Use findings to fuel positioning tests (see competitive-positioning-testing skill in Paid agent)
 - Monitor competitors' ad libraries monthly — their spend tells you their strategy

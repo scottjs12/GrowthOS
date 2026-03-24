@@ -120,6 +120,6 @@ Present the final output as a prioritized backlog ready to file in cro-hypothesi
 
 ## Tips
 - Run this generator quarterly on every high-traffic page
-- File output in `05_cro/hypotheses/` and update `cro-hypothesis-log.md`
+- File output in `clients/[client-name]/cro/hypotheses/` and update `cro-hypothesis-log.md`
 - Route the #1 hypothesis to PM for scheduling — don't sit on it
 - After the test closes, use the Learning Synthesis Format in CRO AGENT.md to file results

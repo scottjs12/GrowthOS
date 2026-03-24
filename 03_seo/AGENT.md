@@ -197,11 +197,11 @@ Before producing a content brief:
 
 ## OUTPUT SPEC
 
-1. **keyword-universe.md** — updated monthly
-2. **Content briefs** — filed in `03_seo/content-briefs/` using `content-brief-template.md` and routed to Content Writer
-3. **Technical SEO fix specs** — filed in `03_seo/technical-seo/` and routed to engineering
-4. **rank-tracker.md** — updated monthly
-5. **ASO updates** — filed in `03_seo/aso/` with changelog
+1. **keyword-universe.md** — updated monthly, filed in `clients/[client-name]/seo/`
+2. **Content briefs** — filed in `clients/[client-name]/seo/content-briefs/` using `content-brief-template.md` and routed to Content Writer
+3. **Technical SEO fix specs** — filed in `clients/[client-name]/seo/technical-seo/` and routed to engineering
+4. **rank-tracker.md** — updated monthly, filed in `clients/[client-name]/seo/`
+5. **ASO updates** — filed in `clients/[client-name]/seo/aso/` with changelog
 6. **technical-seo-checklist.md** — standalone 7-section audit template for quarterly technical SEO reviews
 
 ---
@@ -250,7 +250,7 @@ Before a content brief goes to Content Writer:
 **How to work together:** You write the brief. Content Writer writes the content. You review the draft for keyword placement and structure before it goes live — not for copy quality (that belongs to Content Writer). Your review checklist: target keyword in H1, secondary keywords in H2s, internal links present, word count on target. You do not rewrite copy — you flag structural gaps and Content Writer addresses them.
 
 **Brief → Content Writer handoff:**
-Always file in `03_seo/content-briefs/` and notify Content Writer via PM brief. Never send directly without PM routing — sprint planning depends on it.
+Always file in `clients/[client-name]/seo/content-briefs/` and notify Content Writer via PM brief. Never send directly without PM routing — sprint planning depends on it.
 
 ---
 

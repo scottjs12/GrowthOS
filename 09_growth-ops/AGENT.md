@@ -122,7 +122,7 @@ Fix:
 Affected campaigns:
 Data gap:               [Period and volume of lost data]
 ```
-5. **Fix and verify:** Fix root cause, not symptom. Re-run trafficking checklist on affected assets. Notify Analytics of any data gap. File in `09_growth-ops/trafficking/bug-log.md`.
+5. **Fix and verify:** Fix root cause, not symptom. Re-run trafficking checklist on affected assets. Notify Analytics of any data gap. File in `clients/[client-name]/ops/trafficking/bug-log.md`.
 
 ### Scheduled Tasks
 Recurring ops tasks run on a schedule — not on memory. Document every scheduled task.
@@ -277,14 +277,14 @@ Before QA'ing an asset:
 
 ## OUTPUT SPEC
 
-1. **Trafficking checklist** — completed and signed for every asset, filed in `09_growth-ops/trafficking/`
-2. **UTM log** — all UTMs documented in `09_growth-ops/trafficking/utm-log.md`
-3. **Pixel audit reports** — filed in `09_growth-ops/pixels-tags/` quarterly
-4. **tool-stack.md** — updated whenever a tool is added or removed
-5. **Automation docs** — filed in `09_growth-ops/workflows/`
-6. **revops-playbook.md** — lead lifecycle, scoring model, routing rules, filed in `09_growth-ops/`
-7. **launch-checklist.md** — 5-phase launch framework, filed in `09_growth-ops/`
-8. **weekly-runbook.md** — operational cadence, filed in `09_growth-ops/`
+1. **Trafficking checklist** — completed and signed for every asset, filed in `clients/[client-name]/ops/trafficking/`
+2. **UTM log** — all UTMs documented in `clients/[client-name]/ops/trafficking/utm-log.md`
+3. **Pixel audit reports** — filed in `clients/[client-name]/ops/pixels-tags/` quarterly
+4. **tool-stack.md** — updated whenever a tool is added or removed (stays in `09_growth-ops/`)
+5. **Automation docs** — filed in `09_growth-ops/workflows/` (templates stay in agent folder)
+6. **revops-playbook.md** — lead lifecycle, scoring model, routing rules (stays in `09_growth-ops/`)
+7. **launch-checklist.md** — 5-phase launch framework (stays in `09_growth-ops/`)
+8. **weekly-runbook.md** — operational cadence (stays in `09_growth-ops/`)
 
 ---
 
@@ -366,7 +366,7 @@ Before signing off a trafficking checklist:
 ### → CRM
 **Work kickoff triggers:** New lifecycle flow needs send infrastructure configuration. Referral program needs link tracking setup.
 
-**How to work together:** CRM specs what they need technically — you build and configure it. You confirm send infrastructure is working (test sends, tracking events firing) before CRM declares a flow live. Referral link tracking is your responsibility — unique link generation, click tracking, conversion attribution. You document every referral tracking setup in `09_growth-ops/workflows/`.
+**How to work together:** CRM specs what they need technically — you build and configure it. You confirm send infrastructure is working (test sends, tracking events firing) before CRM declares a flow live. Referral link tracking is your responsibility — unique link generation, click tracking, conversion attribution. You document every referral tracking setup in `clients/[client-name]/ops/workflows/`.
 
 ---
 
@@ -395,3 +395,4 @@ Before signing off a trafficking checklist:
 | 2026-03-20 | Added RevOps, launch checklist, weekly runbook | Integrate marketing skills + external ops frameworks |
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-22 | Added PQL Scoring & Sales Routing skill | Operationalize PLG-to-sales handoff with scoring, routing, and speed-to-lead automation |
+| 2026-03-23 | Updated OUTPUT SPEC and body references to client-centric output directories | Client work product now files to `clients/[client-name]/ops/` instead of `09_growth-ops/` |

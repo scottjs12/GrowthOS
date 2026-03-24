@@ -138,5 +138,5 @@ Fix any gaps.
 ## Tips
 - Hand the completed brief to Content Writer (via PM) — SEO writes the brief, Content Writer writes the content
 - SEO reviews the draft for keyword placement and structure before publishing
-- After publishing, add the page to `03_seo/rank-tracker.md` and monitor for 90 days
+- After publishing, add the page to `clients/[client-name]/seo/rank-tracker.md` and monitor for 90 days
 - Update the content every 6 months if ranking — freshness is a ranking signal

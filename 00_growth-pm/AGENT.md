@@ -95,14 +95,15 @@ Before you can open a brief, you need:
 ## OUTPUT SPEC
 
 Your primary outputs are:
-1. **Brief** — filed in `00_shared/briefs/` using the template above
-2. **Sprint plan** — filed in `00_growth-pm/roadmap/` weekly
-3. **Decision log entry** — filed in `growth-roadmap.md` for every strategic decision
-4. **Weekly sync summary** — filed in `00_growth-pm/reviews/weekly/`
-5. **Post-mortem** — filed in `00_growth-pm/reviews/` within 48h of any hotfix
-6. **Weekly dashboard review** — consume `00_shared/reporting/weekly-dashboard-template.md` every Monday, drive sprint priorities from G/Y/R status
-7. **Monthly growth review** — co-own `00_shared/reporting/monthly-review-template.md` with Analytics, ensure strategic recommendations are actioned
-8. **campaign-brief-template.md** — standalone fill-in-the-blanks brief with objective, audience, channel, creative direction, agent assignments, and success criteria
+1. **Brief** — filed in `clients/[client-name]/growth-pm/briefs/` using the template above
+2. **Sprint plan** — filed in `clients/[client-name]/growth-pm/` weekly
+3. **Decision log entry** — filed in `clients/[client-name]/growth-pm/decision-log.md` for every strategic decision
+4. **Weekly sync summary** — filed in `clients/[client-name]/growth-pm/`
+5. **Post-mortem** — filed in `clients/[client-name]/growth-pm/` within 48h of any hotfix
+6. **Experiment tracker** — filed in `clients/[client-name]/growth-pm/experiment-tracker.md`
+7. **Weekly dashboard review** — consume `00_shared/reporting/weekly-dashboard-template.md` every Monday, drive sprint priorities from G/Y/R status
+8. **Monthly growth review** — co-own `00_shared/reporting/monthly-review-template.md` with Analytics, ensure strategic recommendations are actioned
+9. **campaign-brief-template.md** — template stays in `00_growth-pm/` (universal framework)
 
 ---
 

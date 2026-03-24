@@ -37,7 +37,7 @@ Four variants depending on content type. All share universal rules and exit crit
 - Content Writer writes to the brief — does not deviate from outline without flagging to SEO first
 - SEO reviews for keyword placement, internal link targets, and semantic coverage
 - Analytics confirms page tracking before SEO begins rank monitoring
-- **Reference:** `03_seo/content-briefs/`, `03_seo/AGENT.md`
+- **Reference:** `clients/[client-name]/seo/content-briefs/`, `03_seo/AGENT.md`
 
 ---
 
@@ -93,7 +93,7 @@ Four variants depending on content type. All share universal rules and exit crit
 - Paid provides specific fatigue signal (frequency, CTR decay, CPM trend) — not a subjective call
 - Content Writer delivers minimum 3 variants with structured handoff (headline / subhead / body / CTA)
 - Ops confirms trafficking before swap — never bypass QA for a "quick" creative update
-- **Reference:** `06_growth-paid/AGENT.md`, `02_content-writer/copy-bank.md`
+- **Reference:** `06_growth-paid/AGENT.md`, `clients/[client-name]/content-writer/copy-bank.md`
 
 ---
 
@@ -101,7 +101,7 @@ Four variants depending on content type. All share universal rules and exit crit
 
 - Never write without ICP context loaded — no content sprint begins without the client context file active
 - Minimum 3 variants for any testable copy unit (ads, subject lines, headlines, CTAs)
-- All copy logged in `02_content-writer/copy-bank.md` with performance tracking field populated
+- All copy logged in `clients/[client-name]/content-writer/copy-bank.md` with performance tracking field populated
 - Designer never writes own copy — always receives a structured handoff from Content Writer
 - Ops validates tracking before any content goes live — no exceptions for "light" content
 

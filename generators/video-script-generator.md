@@ -96,4 +96,4 @@ Rewrite any script that feels like a TV commercial instead of native content.
 - Film 3 hooks for every script and test them separately — the hook is the highest-leverage variable
 - For paid: Paid agent structures the A/B test. Test hooks first, then bodies, then CTAs.
 - For organic: Post all 3 variants over 1 week. Let engagement data pick the winner.
-- Save winning hooks in `02_content-writer/copy-bank.md` under video hooks
+- Save winning hooks in `clients/[client-name]/content-writer/copy-bank.md` under video hooks

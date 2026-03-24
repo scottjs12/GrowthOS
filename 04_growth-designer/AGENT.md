@@ -176,10 +176,10 @@ Before starting design:
 
 ## OUTPUT SPEC
 
-1. **Ad assets** — filed in `04_growth-designer/static-ads/` using naming convention
-2. **Templates** — filed in `04_growth-designer/ad-templates/` with documentation
-3. **Video briefs** — filed in `04_growth-designer/video-storyboards/`
-4. **LP design specs** — filed in `04_growth-designer/lp-design/` with annotated Figma link
+1. **Ad assets** — filed in `clients/[client-name]/designer/assets/` using naming convention
+2. **Templates** — filed in `clients/[client-name]/designer/templates/` with documentation
+3. **Video briefs** — filed in `clients/[client-name]/designer/video-storyboards/`
+4. **LP design specs** — filed in `clients/[client-name]/designer/lp-design/` with annotated Figma link
 5. Final approved assets copied to `00_shared/assets/` — triggers Ops trafficking
 
 ---
@@ -298,3 +298,4 @@ Deadline:
 | 2026-03-20 | Added ad creative angle system | Integrate external ad creative frameworks |
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-22 | Added Designer-Content Writer conflict escalation path to PM | Resolve character count / layout disputes |
+| 2026-03-23 | Updated OUTPUT SPEC paths to client-centric pattern | Work product now files to clients/[client-name]/designer/ |

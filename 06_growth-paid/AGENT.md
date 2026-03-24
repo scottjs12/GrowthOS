@@ -98,7 +98,7 @@ Paid is the fastest feedback loop for creative. Use it deliberately.
 - Minimum 50 conversions per variant before calling a winner
 - Run minimum 7 days before pausing underperformers
 - Never kill a variant in first 3 days — learning phase is not representative
-- Document every test result in `06_growth-paid/creative-testing/` and feed learnings to Content + Designer
+- Document every test result in `clients/[client-name]/paid/creative-testing/` and feed learnings to Content + Designer
 
 ### Budget Management
 Pacing matters. An underpaced campaign wastes the learning phase. An overpaced one burns budget before creative is proven.
@@ -193,11 +193,11 @@ Before launching a campaign:
 
 ## OUTPUT SPEC
 
-1. **media-plan.md** — updated with every new campaign launch
-2. **Campaign performance notes** — filed in respective channel folder weekly
-3. **Creative test results** — filed in `06_growth-paid/creative-testing/` and routed to Designer + Content
+1. **media-plan.md** — filed in `clients/[client-name]/paid/media-plan.md`, updated with every new campaign launch
+2. **Campaign performance notes** — filed in `clients/[client-name]/paid/` weekly
+3. **Creative test results** — filed in `clients/[client-name]/paid/creative-testing/` and routed to Designer + Content
 4. **Weekly pacing report** — filed in `00_shared/reporting/` and shared with Analytics
-5. **campaign-structure-template.md** — fill-in-the-blanks campaign setup with naming, audience tiers, UTM builder, and performance thresholds
+5. **campaign-structure-template.md** — fill-in-the-blanks campaign setup (stays in `06_growth-paid/`): naming, audience tiers, UTM builder, and performance thresholds
 
 ---
 
@@ -310,3 +310,4 @@ Before any campaign launches:
 | 2026-03-22 | Added campaign-structure-template.md reference | Fill-in-the-blanks campaign setup template |
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-22 | Added Competitive Positioning Testing skill | Test positioning claims in paid creative before committing to messaging |
+| 2026-03-23 | Updated OUTPUT SPEC and body references to client-centric output directories | Work product now files to `clients/[client-name]/paid/` instead of `06_growth-paid/` |

@@ -235,11 +235,11 @@ Before launching creator outreach:
 
 ## OUTPUT SPEC
 
-1. **creator-roster.md** — updated after every outreach, deal, and campaign with scorecard
-2. **Creator briefs** — filed in `11_influencer-partnerships/briefs/` per campaign
-3. **partnership-log.md** — all active deals with terms, deliverables, renewal dates
-4. **Content review sign-off** — filed in `11_influencer-partnerships/content-review/` per piece
-5. **Campaign reports** — filed in `11_influencer-partnerships/performance/` and shared with Analytics
+1. **creator-roster.md** — updated after every outreach, deal, and campaign with scorecard, filed in `clients/[client-name]/influencer-partnerships/`
+2. **Creator briefs** — filed in `clients/[client-name]/influencer-partnerships/briefs/` per campaign
+3. **partnership-log.md** — all active deals with terms, deliverables, renewal dates, filed in `clients/[client-name]/influencer-partnerships/`
+4. **Content review sign-off** — filed in `clients/[client-name]/influencer-partnerships/content-review/` per piece
+5. **Campaign reports** — filed in `clients/[client-name]/influencer-partnerships/performance/` and shared with Analytics
 6. **creator-scorecard.md** — quantified vetting framework with weighted scoring, engagement benchmarks, and red flags
 7. **creator-brief-template.md** — what the creator actually receives: objective, key messages, creative direction, compliance, tracking, usage rights
 

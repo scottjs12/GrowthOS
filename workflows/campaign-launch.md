@@ -45,7 +45,7 @@
   - Never write without ICP context loaded
   - Never submit fewer than 3 variants per angle
 - **Handoff:** Structured copy variants (headline / subhead / body / CTA) → Designer
-- **Handoff:** All variants → `02_content-writer/copy-bank.md`
+- **Handoff:** All variants → `clients/[client-name]/content-writer/copy-bank.md`
 
 ### Step 4 — Designer: Creative Production
 

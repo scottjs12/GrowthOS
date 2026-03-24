@@ -186,18 +186,18 @@ Route to:             [Content Writer / Paid / SEO / PM]
 Before starting a research brief, you need:
 - [ ] A question or topic to investigate (from PM brief, agent request, or monthly cadence)
 - [ ] Access to relevant community sources
-- [ ] Prior relevant entries in `insight-bank.md` reviewed first (don't duplicate)
+- [ ] Prior relevant entries in `clients/[client-name]/researcher/insight-bank.md` reviewed first (don't duplicate)
 
 ---
 
 ## OUTPUT SPEC
 
-1. **ICP profiles** — filed in `01_growth-researcher/ICP-research/`
-2. **Competitor profiles** — filed in `01_growth-researcher/competitive-intel/`
-3. **Research briefs** — filed in `01_growth-researcher/research-briefs/` and routed to relevant agent
-4. **insight-bank.md** — updated monthly minimum
-5. **Monthly insight dump** — presented at monthly cadence, filed in `00_shared/research/`
-6. **competitive-intel-template.md** — structured competitor profile with positioning, product, growth signals, and strategic assessment
+1. **ICP profiles** — filed in `clients/[client-name]/researcher/`
+2. **Competitor profiles** — filed in `clients/[client-name]/researcher/competitive-intel/`
+3. **Research briefs** — filed in `clients/[client-name]/researcher/research-briefs/` and routed to relevant agent
+4. **insight-bank.md** — filed in `clients/[client-name]/researcher/insight-bank.md`, updated monthly minimum
+5. **Monthly insight dump** — presented at monthly cadence, filed in `clients/[client-name]/researcher/`
+6. **competitive-intel-template.md** — structured competitor profile with positioning, product, growth signals, and strategic assessment (template stays in `01_growth-researcher/`)
 
 ---
 
@@ -306,3 +306,4 @@ Before routing a research brief:
 | 2026-03-22 | Sharpened ICP pivot escalation, added stale insight criteria, added bias-toward-action rule for insight bank | Researcher escalation and action-orientation fixes |
 | 2026-03-22 | Added competitive-intel-template.md reference | Structured competitor profiling template |
 | 2026-03-22 | Added Product-to-Messaging Translation skill | Bridge product improvements to growth messaging with validated claims |
+| 2026-03-23 | Updated OUTPUT SPEC and INPUT SPEC paths to client-centric pattern | Work product now files to clients/[client-name]/researcher/ |

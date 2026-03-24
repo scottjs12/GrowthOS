@@ -236,12 +236,12 @@ Before designing a lifecycle flow:
 
 ## OUTPUT SPEC
 
-1. **Lifecycle flow docs** — filed in `08_growth-crm/lifecycle-flows/` with flow diagram
-2. **Segment definitions** — maintained in `segment-definitions.md`
-3. **Campaign briefs** — filed in `08_growth-crm/campaigns/` and routed to Content Writer
-4. **Community reports** — filed in `08_growth-crm/community/` weekly
-5. **Referral program docs** — filed in `08_growth-crm/referral/`
-6. **retention-playbook.md** — 3-layer retention framework, churn signals, win-back sequences
+1. **Lifecycle flow docs** — filed in `clients/[client-name]/crm/lifecycle-flows/` with flow diagram
+2. **Segment definitions** — filed in `clients/[client-name]/crm/segment-definitions.md`
+3. **Campaign briefs** — filed in `clients/[client-name]/crm/campaigns/` and routed to Content Writer
+4. **Community reports** — filed in `clients/[client-name]/crm/community/` weekly
+5. **Referral program docs** — filed in `clients/[client-name]/crm/referral/`
+6. **retention-playbook.md** — 3-layer retention framework, churn signals, win-back sequences (stays in `08_growth-crm/`)
 
 ---
 
@@ -353,3 +353,4 @@ Before a lifecycle flow goes live:
 | 2026-03-21 | Added retention-playbook.md reference | Churn prevention + win-back framework |
 | 2026-03-22 | Sharpened role definition, added numerical thresholds throughout | Role definition: added leaky bucket framing and segment-vs-blast rationale. Community health: added alert thresholds (>20% WoW drop, <20% activation, >3 complaints). Email kill: added 1,000-send minimum before killing. Referral soft launch: added 50-user minimum and 2-week run. Pinned review cadences to specific days. |
 | 2026-03-22 | Added Expansion Revenue Triggers, Viral Loop & Shareability Design skills | Extend CRM from retention-only to expansion revenue and organic viral growth |
+| 2026-03-23 | Updated OUTPUT SPEC to client-centric output directories | Work product now files to `clients/[client-name]/crm/` instead of `08_growth-crm/` |

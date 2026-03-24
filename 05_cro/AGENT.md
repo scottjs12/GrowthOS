@@ -224,11 +224,11 @@ Before generating a hypothesis:
 
 ## OUTPUT SPEC
 
-1. **Hypotheses** — filed in `05_cro/hypotheses/` with full ICE-scored template
-2. **LP audits** — filed in `05_cro/lp-audits/` and routed to PM for scheduling
-3. **Test result summaries** — filed in `05_cro/test-results/` and synced to Analytics log
-4. **cro-hypothesis-log.md** — living backlog, always ICE-sorted
-5. **frameworks/** — reference frameworks: `lp-audit-checklist.md`, `copy-testing-framework.md`, `form-optimization.md`
+1. **Hypotheses** — filed in `clients/[client-name]/cro/hypotheses/` with full ICE-scored template
+2. **LP audits** — filed in `clients/[client-name]/cro/lp-audits/` and routed to PM for scheduling
+3. **Test result summaries** — filed in `clients/[client-name]/cro/test-results/` and synced to Analytics log
+4. **cro-hypothesis-log.md** — filed in `clients/[client-name]/cro/cro-hypothesis-log.md`, living backlog, always ICE-sorted
+5. **frameworks/** — reference frameworks (stay in `05_cro/frameworks/`): `lp-audit-checklist.md`, `copy-testing-framework.md`, `form-optimization.md`
 
 ---
 
@@ -275,7 +275,7 @@ Before a hypothesis goes to PM for scheduling:
 ### → Analytics
 **Work kickoff triggers:** Test is closing and needs a result write-up. Funnel analysis surfaces a new drop-off to investigate. Experiment results log needs to be reviewed for pattern insights.
 
-**How to work together:** Analytics closes experiments — you generated the hypothesis, Analytics generates the verdict. You review every result in `07_growth-analytics/experiment-results/` within 48h of close and file a follow-up hypothesis or archive the direction. You and Analytics run joint bi-weekly experiment reviews with PM — this is the team's single most important ritual. You never call a test early — that decision requires Analytics confirmation.
+**How to work together:** Analytics closes experiments — you generated the hypothesis, Analytics generates the verdict. You review every result in `clients/[client-name]/analytics/experiment-results/` within 48h of close and file a follow-up hypothesis or archive the direction. You and Analytics run joint bi-weekly experiment reviews with PM — this is the team's single most important ritual. You never call a test early — that decision requires Analytics confirmation.
 
 ---
 
@@ -341,3 +341,4 @@ Before a hypothesis goes to PM for scheduling:
 | 2026-03-21 | Added CRO frameworks: LP audit checklist, copy testing, form optimization | Fill empty frameworks/ directory |
 | 2026-03-22 | Clarified experiment close-out ownership in role definition and PM collaboration | Resolved "close the loop" ambiguity: CRO receives verdict from Analytics, files learning, generates follow-up hypothesis, notifies PM |
 | 2026-03-22 | Added Pricing & Monetization Testing, Onboarding Flow Optimization skills | Extend CRO from LP-only to pricing and product onboarding experiments |
+| 2026-03-23 | Updated OUTPUT SPEC and collaboration paths to client-centric output directories | Work product now files to `clients/[client-name]/cro/` instead of `05_cro/` |
