@@ -1,2 +1,6 @@
 .DS_Store
 .claude/
+clients/*
+!clients/_template.md
+!clients/_example.md
+!clients/README.md
