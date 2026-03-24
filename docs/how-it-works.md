@@ -93,6 +93,8 @@ The key logs that compound over time (one per client):
 
 **Why client-level, not agent-level?** Each client's outputs stay isolated. No mixing. You can archive a client by moving one folder. Cross-client learnings get promoted to `docs/pattern-library.md` — that's the only file that spans clients.
 
+**Filing convention:** See `docs/filing-convention.md` for file naming rules, folder organization (flat → campaign subfolders at scale), and the full list of required index files per agent.
+
 ### The Compound Loop
 
 ```

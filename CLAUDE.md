@@ -53,6 +53,7 @@ When the user gives you a task, identify which agents are relevant and READ ONLY
 | **Brand kit, brand assets, visual identity setup** | `04_growth-designer/AGENT.md` | `04_growth-designer/brand-kit-template.md` |
 | **Brand voice, tone of voice, writing style setup** | `02_content-writer/AGENT.md` | `02_content-writer/brand-voice-template.md` |
 | **Messaging matrix, positioning, value props** | `02_content-writer/AGENT.md` | `02_content-writer/messaging-matrix-template.md` |
+| **File naming, folder structure, logging, indexing** | `00_growth-pm/AGENT.md` | `docs/filing-convention.md` |
 | **Pattern, cross-client, what works, reusable** | `STRATEGIST.md` | `docs/pattern-library.md` |
 | **Post-mortem, failure, incident, what went wrong** | `05_cro/AGENT.md` + `00_growth-pm/AGENT.md` | `docs/post-mortem-template.md`, `docs/experiment-loop.md` |
 | **Workflow, process, how do we run X** | `00_growth-pm/AGENT.md` | `workflows/README.md` + relevant workflow file |

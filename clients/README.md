@@ -109,6 +109,8 @@ You'll have one folder here — your company. That's it.
 
 One folder per client. When switching clients, just tell Claude which client you're working on.
 
-## Naming
+## Naming & Filing
 
 Use lowercase, hyphens for spaces: `acme-corp/`, `fittrack/`, `dealflow/`
+
+**File naming convention:** `YYYY-MM-DD_[name].md` — see `docs/filing-convention.md` for the full standard including asset naming, campaign subfolder rules, and the required index files per agent.
