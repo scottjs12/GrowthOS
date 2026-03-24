@@ -128,3 +128,33 @@ ICP profiles (Researcher)
 ```
 
 Every output references where it came from (brief ref) and where it's going (routing). Nothing exists in isolation.
+
+---
+
+## Keeping Token Usage Low
+
+GrowthOS files are designed to be loaded selectively — never paste everything at once. Follow these rules to get better output with fewer tokens.
+
+**1. Load 1 AGENT.md per task, not all 13.**
+If you're writing ad copy, load `02_content-writer/AGENT.md`. That's it. Don't load the Designer, Paid, and CRO agents "just in case." If the task genuinely spans 2 agents, load 2. Never more than 3.
+
+**2. Only paste the context blocks your agent needs.**
+Your `context.md` has 13 sections. The Content Writer needs brand voice + ICP + copy angles. It does not need your analytics stack or engineer context. Paste the relevant 2-3 blocks, not the whole file.
+
+**3. Supplementary files are optional — load only when needed.**
+Every agent folder has playbooks and templates alongside the AGENT.md. Only load these when the task specifically calls for that framework. Writing a basic email? Just the AGENT.md. Building a full lifecycle flow? Now load `email-sequences-playbook.md`.
+
+**4. Load the generator first, gather inputs second.**
+Generators tell you exactly what inputs they need under "What You Need First." Read that list, gather those specific items, then run the prompt chain. Don't paste your entire client folder and hope the AI figures it out.
+
+**5. Feed prior outputs forward — don't re-describe.**
+If you already built ICP profiles, don't re-explain your audience from scratch. Paste the ICP file. If you already have a messaging matrix, paste that instead of re-deriving angles. The compound loop saves tokens too.
+
+**Quick reference — what to load per task type:**
+
+| Task | Load | ~Tokens |
+|---|---|---|
+| Single-agent task (write ad copy) | 1 AGENT.md + 2-3 context blocks | ~4-6K |
+| Two-agent handoff (research → copy) | 2 AGENT.md + context blocks + 1 prior output | ~10-12K |
+| Generator (ad copy, email sequence) | Generator file + 2-3 context blocks | ~5-8K |
+| Full campaign planning | PM AGENT.md + 2 AGENT.md + context + workflow | ~15-17K |
