@@ -6,9 +6,15 @@
 
 ## Active Backlog (ICE-sorted, highest first)
 
+> **Example entries below** — generated as a GrowthOS demo for a fictional B2B energy company.
+
 | # | Hypothesis | Page | ICE Score | Status | Result |
 |---|---|---|---|---|---|
-| | | | | | |
+| 1 | Guarantee badge above the fold | B2B Energy LP | 8.0 | backlog | |
+| 3 | Reduce form from 6 fields to 3 | B2B Energy LP | 8.0 | backlog | |
+| 4 | "48-hour audit delivery" timestamp near CTA | B2B Energy LP | 7.7 | backlog | |
+| 2 | Dashboard screenshot replaces generic hero | B2B Energy LP | 7.3 | backlog | |
+| 5 | Industry-specific social proof with filter | B2B Energy LP | 5.7 | backlog | |
 
 ---
 
