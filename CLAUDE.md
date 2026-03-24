@@ -8,9 +8,15 @@ GrowthOS is an AI-native growth operating system with 12 specialist agents. Each
 
 ## Client Context System
 
-Client-specific context lives in `clients/[client-name].md` — one file per client, all 13 context blocks in one place. AGENT.md files contain only universal skills.
+Each client has its own folder: `clients/[client-name]/`. The folder contains:
+- `context.md` — all 13 context blocks for that client
+- Agent-specific output subdirectories (researcher/, content-writer/, cro/, paid/, etc.) where all work product is filed
 
-**Loading rule:** When working on ANY client task, ALWAYS load the active client context file alongside the relevant AGENT.md(s). Look for `.md` files in `clients/` (excluding `_template.md` and `README.md`). If only one client file exists, load it automatically. If multiple exist, ask which client.
+AGENT.md files contain only universal skills. Templates and frameworks stay in agent folders. All client output goes in the client folder.
+
+**Loading rule:** When working on ANY client task, ALWAYS load `clients/[client-name]/context.md` alongside the relevant AGENT.md(s). Look for folders in `clients/` (excluding `_template.md`, `_example.md`, and `README.md`). If only one client folder exists, load it automatically. If multiple exist, ask which client.
+
+**Output rule:** All work product (copy, research, hypotheses, media plans, etc.) is filed in the client's folder under the appropriate agent subdirectory — never in the agent's top-level folder.
 
 ## Agent Routing
 
@@ -22,8 +28,8 @@ When the user gives you a task, identify which agents are relevant and READ ONLY
 |---|---|---|
 | **Strategy, planning, North Star, growth model, priorities** | `STRATEGIST.md` + `00_growth-pm/AGENT.md` | `docs/how-it-works.md` |
 | **Brief, sprint, prioritization, experiment backlog, coordination** | `00_growth-pm/AGENT.md` | `00_growth-pm/experiment-tracker.md`, `00_growth-pm/campaign-brief-template.md` |
-| **ICP, persona, audience research, competitive intel, market research** | `01_growth-researcher/AGENT.md` | `01_growth-researcher/icp-template.md`, `01_growth-researcher/ICP-profiles.md`, `01_growth-researcher/competitive-intel-template.md` |
-| **Copy, email copy, ad copy, landing page copy, messaging** | `02_content-writer/AGENT.md` | `02_content-writer/copy-bank.md`, `02_content-writer/messaging-matrix.md` |
+| **ICP, persona, audience research, competitive intel, market research** | `01_growth-researcher/AGENT.md` | `01_growth-researcher/icp-template.md`, `01_growth-researcher/competitive-intel-template.md`, + client's `researcher/` |
+| **Copy, email copy, ad copy, landing page copy, messaging** | `02_content-writer/AGENT.md` | `02_content-writer/lp-copy-structures.md`, + client's `content-writer/copy-bank.md`, `content-writer/messaging-matrix.md` |
 | **Cold email, outbound, prospecting email** | `02_content-writer/AGENT.md` | (cold email framework is in AGENT.md) |
 | **Social media, content calendar, social strategy, video scripts** | `02_content-writer/AGENT.md` | `02_content-writer/social-content-playbook.md` |
 | **SEO, keywords, content briefs, technical SEO, ASO** | `03_seo/AGENT.md` | `03_seo/keyword-research/`, `03_seo/content-briefs/`, `03_seo/technical-seo-checklist.md` |

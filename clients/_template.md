@@ -1,8 +1,10 @@
 # Client Context: [Client Name]
 
-> Copy this template to create a new client file: `clients/[client-name].md`
+> Copy this template to create a new client file: `clients/[client-name]/context.md`
 > Fill in every section during onboarding. Leave nothing as "[placeholder]" before going live.
 > This file gets loaded alongside any AGENT.md to provide client-specific context.
+
+> **Folder structure:** When creating a new client, create a folder `clients/[client-name]/` with this file as `context.md`. Run the setup command or manually create output subdirectories. See `clients/_example.md` for a filled-in example.
 
 ---
 

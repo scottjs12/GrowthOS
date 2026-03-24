@@ -1,4 +1,4 @@
-# Media Plan
+# Media Plan — Vantage Energy Advisory
 
 > Owner: Growth Paid | Source of truth for all active campaigns
 > Updated on every campaign launch, pause, or budget change.
@@ -27,4 +27,4 @@
 
 `[CLIENT]_[CHANNEL]_[OBJECTIVE]_[AUDIENCE-TIER]_[DATE-STARTED]`
 
-Example: `CLIENT_META_APPDL_T2-LAL_20260318`
+Example: `VANTAGE_GOOG_SEARCH_T3-HIGHINTENT_20260323`

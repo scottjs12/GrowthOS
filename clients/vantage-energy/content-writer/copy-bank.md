@@ -1,4 +1,4 @@
-# Copy Bank
+# Copy Bank — Vantage Energy Advisory
 
 > Owner: Content Writer | Archive of all produced copy with performance notes
 > Update with Analytics results when available.

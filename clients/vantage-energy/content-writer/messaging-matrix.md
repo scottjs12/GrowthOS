@@ -1,4 +1,4 @@
-# Messaging Matrix
+# Messaging Matrix — Vantage Energy Advisory
 
 > Owner: Content Writer | Source of truth for positioning and message-to-audience mapping
 > Updated when Researcher surfaces new ICP insights or Strategist calls a positioning shift.

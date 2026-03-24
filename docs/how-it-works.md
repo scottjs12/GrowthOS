@@ -54,16 +54,44 @@ Without filing, every task starts from zero. With filing, every task starts from
 
 ### Where Outputs Live
 
-Each agent has its own output directories defined in the OUTPUT SPEC section of their AGENT.md. The key shared logs that compound over time:
+Agent folders contain **methodology only** — AGENT.md files, templates, frameworks, playbooks. All client work product lives under `clients/[client-name]/` in agent-specific subdirectories:
 
-| Log File | What It Tracks | Who Updates It | Who Reads It |
+```
+clients/vantage-energy/
+  context.md                    ← client context (loaded with every task)
+  researcher/
+    icp-profiles.md             ← ICP research for this client
+    insight-bank.md             ← research findings for this client
+    research-briefs/
+  content-writer/
+    ad-copy/
+    landing-pages/
+    copy-bank.md                ← all copy + performance for this client
+    messaging-matrix.md         ← ICP → message mapping for this client
+  cro/
+    hypotheses/
+    cro-hypothesis-log.md       ← hypothesis backlog for this client
+  paid/
+    media-plan.md               ← active campaigns for this client
+    creative-testing/
+  analytics/
+  designer/
+  crm/
+  ops/
+```
+
+The key logs that compound over time (one per client):
+
+| Log File (under `clients/[name]/`) | What It Tracks | Who Updates It | Who Reads It |
 |---|---|---|---|
-| `01_growth-researcher/insight-bank.md` | Every research finding | Researcher | All agents (via PM) |
-| `02_content-writer/copy-bank.md` | Every piece of copy + performance | Content Writer | Content Writer, Paid, CRO |
-| `02_content-writer/messaging-matrix.md` | ICP → message → proof → CTA mapping | Content Writer | Content Writer, Paid, Designer |
-| `05_cro/cro-hypothesis-log.md` | Every hypothesis + test result | CRO | CRO, PM, Analytics |
-| `06_growth-paid/media-plan.md` | All active campaigns + budgets | Paid | Paid, PM, Analytics |
-| `docs/pattern-library.md` | Cross-client validated patterns | Strategist | All agents |
+| `researcher/insight-bank.md` | Every research finding | Researcher | All agents (via PM) |
+| `content-writer/copy-bank.md` | Every piece of copy + performance | Content Writer | Content Writer, Paid, CRO |
+| `content-writer/messaging-matrix.md` | ICP → message → proof → CTA mapping | Content Writer | Content Writer, Paid, Designer |
+| `cro/cro-hypothesis-log.md` | Every hypothesis + test result | CRO | CRO, PM, Analytics |
+| `paid/media-plan.md` | All active campaigns + budgets | Paid | Paid, PM, Analytics |
+| `docs/pattern-library.md` (repo-level) | Cross-client validated patterns | Strategist | All agents |
+
+**Why client-level, not agent-level?** Each client's outputs stay isolated. No mixing. You can archive a client by moving one folder. Cross-client learnings get promoted to `docs/pattern-library.md` — that's the only file that spans clients.
 
 ### The Compound Loop
 

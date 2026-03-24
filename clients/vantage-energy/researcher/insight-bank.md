@@ -1,4 +1,4 @@
-# Insight Bank
+# Insight Bank — Vantage Energy Advisory
 
 > Owner: Growth Researcher | Updated: Monthly minimum
 > Every finding gets an entry. Entries are never deleted — mark as "superseded" with a link to newer finding.

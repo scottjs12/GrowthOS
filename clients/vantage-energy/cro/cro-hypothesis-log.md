@@ -1,4 +1,4 @@
-# CRO Hypothesis Log
+# CRO Hypothesis Log — Vantage Energy Advisory
 
 > Living backlog of all conversion optimization hypotheses. Sorted by ICE score. Every hypothesis follows the standard format from AGENT.md.
 
