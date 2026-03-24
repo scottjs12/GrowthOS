@@ -457,7 +457,7 @@ This is optional and advanced. GrowthOS briefs are designed to be human-executab
 | Mistake | What to Do Instead |
 |---|---|
 | Trying to fill all 13 context blocks perfectly on Day 1 | Fill 5 minimum viable fields. Refine over 2 weeks. |
-| Activating all 12 agents at once | Follow the activation schedule. 3 agents max in Week 1. |
+| Activating all 13 agents at once | Follow the activation schedule. 3 agents max in Week 1. |
 | Skipping the existing asset audit | You'll duplicate work or miss what's already running. 30 min saves hours. |
 | Writing copy yourself instead of briefing Content Writer | The agent produces better variants faster. Brief it, review the output, iterate. |
 | Launching ads before tracking is confirmed live | Ops confirms pixels fire → then you spend. Never the other way around. |

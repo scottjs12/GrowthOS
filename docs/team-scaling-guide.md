@@ -66,7 +66,7 @@ Growth Lead (you)
 7. **CRO** — Dedicated hypothesis generation, test design, learning synthesis. Only if you have >50K monthly visitors.
 
 ### GrowthOS agents active
-- All 12 agents are active
+- All 13 agents are active
 - PM is now a dedicated person, not the growth lead wearing a PM hat
 
 ### Team structure

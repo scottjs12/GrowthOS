@@ -5,7 +5,7 @@
 ```
 TIER 1 — STRATEGIC        Growth Strategist (you)
 TIER 2 — OPERATIONAL      Growth PM
-TIER 3 — EXECUTION        12 specialist agents
+TIER 3 — EXECUTION        13 specialist agents
 ```
 
 Work flows down. Escalations flow up — only when a decision requires the tier above.

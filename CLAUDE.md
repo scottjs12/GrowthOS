@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-GrowthOS is an AI-native growth operating system with 12 specialist agents. Each agent has an AGENT.md defining its role, skills, and collaboration protocols. Supplementary playbook files provide deeper frameworks.
+GrowthOS is an AI-native growth operating system with 13 specialist agents. Each agent has an AGENT.md defining its role, skills, and collaboration protocols. Supplementary playbook files provide deeper frameworks.
 
 **Total repo: ~100K tokens. Never load everything at once.**
 

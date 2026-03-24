@@ -17,7 +17,7 @@ STRATEGIST (you)
     | sets direction
 GROWTH PM (orchestrator)
     | briefs + prioritizes
-12 SPECIALIST AGENTS (execute)
+13 SPECIALIST AGENTS (execute)
     | produce deliverables
 ANALYTICS (measures)
     | results feed back to strategist
@@ -96,7 +96,7 @@ Walk me through Phase 1 (Foundation) of the launch checklist for [your business]
 
 ## Minute 25-30: Plan Your First Week
 
-**Activation schedule — don't try to use all 12 agents at once:**
+**Activation schedule — don't try to use all 13 agents at once:**
 
 | Week | Activate | Focus |
 |---|---|---|
