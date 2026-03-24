@@ -307,3 +307,4 @@ Before routing a research brief:
 | 2026-03-22 | Added competitive-intel-template.md reference | Structured competitor profiling template |
 | 2026-03-22 | Added Product-to-Messaging Translation skill | Bridge product improvements to growth messaging with validated claims |
 | 2026-03-23 | Updated OUTPUT SPEC and INPUT SPEC paths to client-centric pattern | Work product now files to clients/[client-name]/researcher/ |
+| 2026-03-23 | ICP template confirmed as foundational onboarding file | ICP profiles required before downstream agents can work |

@@ -168,7 +168,7 @@ Must avoid:     [Hard nos]
 
 Before starting design:
 - [ ] Creative brief received from PM with copy attached from Content Writer
-- [ ] Brand assets confirmed (colors, fonts, logo files)
+- [ ] Brand kit confirmed — `clients/[client-name]/designer/brand-kit.md` complete (colors, fonts, logo files, imagery direction)
 - [ ] Platform specs confirmed
 - [ ] Variant count defined
 
@@ -299,3 +299,4 @@ Deadline:
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-22 | Added Designer-Content Writer conflict escalation path to PM | Resolve character count / layout disputes |
 | 2026-03-23 | Updated OUTPUT SPEC paths to client-centric pattern | Work product now files to clients/[client-name]/designer/ |
+| 2026-03-23 | Added brand-kit-template.md reference, updated INPUT SPEC | Structured brand asset onboarding for every client |

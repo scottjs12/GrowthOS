@@ -197,9 +197,9 @@ What are they doing now? How has their usage expanded?
 Before writing, you need:
 - [ ] Brief from PM (goal, ICP segment, channel, deadline)
 - [ ] Relevant ICP profile or research brief from Researcher
-- [ ] Messaging matrix — current version
+- [ ] Messaging matrix — `clients/[client-name]/content-writer/messaging-matrix.md` (current version)
+- [ ] Brand voice guide — `clients/[client-name]/content-writer/brand-voice.md` (tone, rules, examples)
 - [ ] Prior copy performance notes from `clients/[client-name]/content-writer/copy-bank.md` (don't repeat angles that failed)
-- [ ] Brand voice guidelines (see CLIENT CONTEXT)
 
 ---
 
@@ -338,3 +338,4 @@ Notes: [Any copy hierarchy or emphasis notes for Designer]
 | 2026-03-21 | Added lp-copy-structures.md reference | 5 proven LP page architectures |
 | 2026-03-22 | Added Case Study Pipeline skill | Systematize customer evidence production from sourcing to distribution |
 | 2026-03-23 | Updated OUTPUT SPEC, INPUT SPEC, and body paths to client-centric pattern | Work product now files to clients/[client-name]/content-writer/ |
+| 2026-03-23 | Added brand-voice-template.md + messaging-matrix-template.md references, updated INPUT SPEC | Structured brand voice and messaging onboarding for every client |

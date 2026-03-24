@@ -197,8 +197,8 @@ GAPS IDENTIFIED
 - [ ] Read `QUICKSTART.md` (10 min)
 - [ ] Read `docs/how-it-works.md` (5 min)
 - [ ] Skim `STRATEGIST.md` — understand your role and rhythms (10 min)
-- [ ] Copy `clients/_template.md` to `clients/[your-company].md`
-- [ ] Fill the **minimum viable context** — just these 5 fields:
+- [ ] Create client folder: `clients/[your-company]/` with full subfolder structure (see `clients/README.md`)
+- [ ] Copy `clients/_template.md` into it as `context.md` and fill the **minimum viable context** — just these 5 fields:
   1. North Star metric
   2. ICP (one sentence — who, what they want, what frustrates them)
   3. Brand voice (3 words yes, 3 words no)
@@ -209,20 +209,48 @@ GAPS IDENTIFIED
 - [ ] Run your first agent task — use the Researcher to build an ICP profile:
   ```
   Read 01_growth-researcher/AGENT.md and 01_growth-researcher/icp-template.md.
-  Load clients/[your-company].md for context.
+  Load clients/[your-company]/context.md for context.
 
   Build a complete ICP profile for [your primary customer segment].
   Here's what I know: [paste whatever you have — informal notes, data, intuition].
   ```
 - [ ] Review the output. Refine. This is your ICP v1.
-- [ ] Save the ICP profile to `01_growth-researcher/ICP-profiles.md`
+- [ ] Save the ICP profile to `clients/[your-company]/researcher/icp-profiles.md`
 
-**Hour 3 — Strategist Intake**
+**Hour 3 — Strategist Intake + Brand Foundations**
 - [ ] Complete the Strategist Intake in `STRATEGIST.md`
 - [ ] Draft your growth model using `docs/growth-model-template.md` (even rough numbers)
+- [ ] Fill in `clients/[your-company]/strategist/goals.md` — North Star + 90-day OKRs
 - [ ] Identify which agents to activate first (default: Researcher + PM + Content Writer)
 
 **Day 1 checkpoint:** Client context file started, ICP v1 done, Strategist Intake filed.
+
+---
+
+### Day 2: Brand Foundations (1-2 hours)
+
+These 4 files are required before downstream agents can produce consistent work. Fill them in Day 2 — before you brief Content Writer or Designer.
+
+**Brand Kit** (30 min)
+- [ ] Copy `04_growth-designer/brand-kit-template.md` to `clients/[your-company]/designer/brand-kit.md`
+- [ ] Fill in: logo files, color palette (hex codes), typography, imagery direction
+- [ ] Link to Figma / design system / asset folder
+- [ ] This is the Designer agent's source of truth — incomplete = inconsistent assets
+
+**Brand Voice Guide** (30 min)
+- [ ] Copy `02_content-writer/brand-voice-template.md` to `clients/[your-company]/content-writer/brand-voice.md`
+- [ ] Fill in: personality, tone spectrum, language rules, do/don't examples
+- [ ] This is the Content Writer agent's source of truth — incomplete = subjective revision cycles
+
+**Messaging Matrix** (30 min)
+- [ ] Copy `02_content-writer/messaging-matrix-template.md` to `clients/[your-company]/content-writer/messaging-matrix.md`
+- [ ] Fill in: core positioning, value props, ICP × pain point × proof matrix
+- [ ] This connects research to execution — every ad, email, and LP pulls from this
+
+**ICP Profiles** (if not completed Day 1)
+- [ ] Ensure `clients/[your-company]/researcher/icp-profiles.md` has at least 1 complete profile using the template from `01_growth-researcher/icp-template.md`
+
+**Day 2 checkpoint:** Brand kit, voice guide, messaging matrix, and ICP profiles exist. Every downstream agent has what it needs.
 
 ---
 
@@ -230,10 +258,10 @@ GAPS IDENTIFIED
 
 | Day | Activity | Time |
 |---|---|---|
-| **Day 1** | Foundation (above) | 2-3 hrs |
-| **Day 2** | Stakeholder interviews: Founder + Design lead | 1 hr |
-| **Day 3** | Stakeholder interviews: Engineering + Sales/CS | 1 hr |
-| **Day 4** | Fill remaining client context blocks from interview notes | 1-2 hrs |
+| **Day 1** | Foundation — context, ICP v1, strategist intake (above) | 2-3 hrs |
+| **Day 2** | Brand foundations — brand kit, voice guide, messaging matrix (above) | 1-2 hrs |
+| **Day 3** | Stakeholder interviews: Founder + Design lead + Engineering | 1-2 hrs |
+| **Day 4** | Stakeholder interviews: Sales/CS + Marketing. Fill remaining context blocks. | 1-2 hrs |
 | **Day 5** | Existing asset audit + first PM brief | 1-2 hrs |
 
 **Tasks for the week:**
@@ -444,7 +472,11 @@ This is optional and advanced. GrowthOS briefs are designed to be human-executab
 | I need to... | Go here |
 |---|---|
 | Understand the system | `docs/how-it-works.md` |
-| Fill in my client context | `clients/_template.md` + `docs/example-client-contexts.md` |
+| Fill in my client context | `clients/_template.md` + `clients/_example.md` |
+| Set up brand design assets | `04_growth-designer/brand-kit-template.md` |
+| Set up brand voice & tone | `02_content-writer/brand-voice-template.md` |
+| Build messaging matrix | `02_content-writer/messaging-matrix-template.md` |
+| Build ICP profiles | `01_growth-researcher/icp-template.md` |
 | Find the right prompt | `docs/prompt-cookbook.md` |
 | Launch my first campaign | `09_growth-ops/launch-checklist.md` |
 | Run weekly ops | `09_growth-ops/weekly-runbook.md` |

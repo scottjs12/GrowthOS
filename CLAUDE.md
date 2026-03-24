@@ -29,12 +29,12 @@ When the user gives you a task, identify which agents are relevant and READ ONLY
 | **Strategy, planning, North Star, growth model, priorities** | `STRATEGIST.md` + `00_growth-pm/AGENT.md` | `docs/how-it-works.md` |
 | **Brief, sprint, prioritization, experiment backlog, coordination** | `00_growth-pm/AGENT.md` | `00_growth-pm/experiment-tracker.md`, `00_growth-pm/campaign-brief-template.md` |
 | **ICP, persona, audience research, competitive intel, market research** | `01_growth-researcher/AGENT.md` | `01_growth-researcher/icp-template.md`, `01_growth-researcher/competitive-intel-template.md`, + client's `researcher/` |
-| **Copy, email copy, ad copy, landing page copy, messaging** | `02_content-writer/AGENT.md` | `02_content-writer/lp-copy-structures.md`, + client's `content-writer/copy-bank.md`, `content-writer/messaging-matrix.md` |
+| **Copy, email copy, ad copy, landing page copy, messaging** | `02_content-writer/AGENT.md` | `02_content-writer/lp-copy-structures.md`, + client's `content-writer/copy-bank.md`, `content-writer/messaging-matrix.md`, `content-writer/brand-voice.md` |
 | **Cold email, outbound, prospecting email** | `02_content-writer/AGENT.md` | (cold email framework is in AGENT.md) |
 | **Social media, content calendar, social strategy, video scripts** | `02_content-writer/AGENT.md` | `02_content-writer/social-content-playbook.md` |
 | **SEO, keywords, content briefs, technical SEO, ASO** | `03_seo/AGENT.md` | `03_seo/keyword-research/`, `03_seo/content-briefs/`, `03_seo/technical-seo-checklist.md` |
 | **AI search, AEO, AI overviews, programmatic SEO** | `03_seo/AGENT.md` | (AEO + pSEO sections are in AGENT.md) |
-| **Design, creative, ad templates, landing page design** | `04_growth-designer/AGENT.md` | `00_shared/briefs/designer-creative-brief-template.md` |
+| **Design, creative, ad templates, landing page design** | `04_growth-designer/AGENT.md` | `00_shared/briefs/designer-creative-brief-template.md`, + client's `designer/brand-kit.md` |
 | **Ad creative, angles, creative testing** | `04_growth-designer/AGENT.md` + `06_growth-paid/AGENT.md` | |
 | **CRO, A/B test, hypothesis, landing page audit, conversion** | `05_cro/AGENT.md` | `05_cro/frameworks/` |
 | **Paid ads, Meta, Google Ads, budget, audience, retargeting** | `06_growth-paid/AGENT.md` | `06_growth-paid/media-plan.md`, `06_growth-paid/campaign-structure-template.md`, `00_shared/briefs/media-buyer-brief-template.md` |
@@ -50,6 +50,9 @@ When the user gives you a task, identify which agents are relevant and READ ONLY
 | **Engineering, LP build, tracking code, HTML ads, A/B instrumentation** | `10_growth-engineer/AGENT.md` | |
 | **Influencer, creator, UGC, partnerships, affiliate** | `11_influencer-partnerships/AGENT.md` | `11_influencer-partnerships/creator-scorecard.md`, `11_influencer-partnerships/creator-brief-template.md` |
 | **Client onboarding, setup** | `SETUP.md` + `00_growth-pm/AGENT.md` | `docs/client-onboarding.md` |
+| **Brand kit, brand assets, visual identity setup** | `04_growth-designer/AGENT.md` | `04_growth-designer/brand-kit-template.md` |
+| **Brand voice, tone of voice, writing style setup** | `02_content-writer/AGENT.md` | `02_content-writer/brand-voice-template.md` |
+| **Messaging matrix, positioning, value props** | `02_content-writer/AGENT.md` | `02_content-writer/messaging-matrix-template.md` |
 | **Pattern, cross-client, what works, reusable** | `STRATEGIST.md` | `docs/pattern-library.md` |
 | **Post-mortem, failure, incident, what went wrong** | `05_cro/AGENT.md` + `00_growth-pm/AGENT.md` | `docs/post-mortem-template.md`, `docs/experiment-loop.md` |
 | **Workflow, process, how do we run X** | `00_growth-pm/AGENT.md` | `workflows/README.md` + relevant workflow file |
