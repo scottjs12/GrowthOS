@@ -25,7 +25,7 @@ git clone https://github.com/scottjs12/GrowthOS.git
 cd GrowthOS
 ```
 
-Works best with [Claude Code](https://claude.ai/code) (the `CLAUDE.md` auto-routing handles agent selection), but every file works with any AI tool — just load the relevant AGENT.md + your `clients/[company].md` file as context, then paste the prompt. See `clients/_example.md` for a fully filled-in example.
+Works best with [Claude Code](https://claude.ai/code) (the `CLAUDE.md` auto-routing handles agent selection), but every file works with any AI tool — just load the relevant AGENT.md + your `clients/[company]/context.md` file as context, then paste the prompt. See `clients/_example.md` for a fully filled-in example.
 
 ---
 
@@ -117,9 +117,28 @@ ANALYTICS (measures)
 
 **Two-layer agent design:**
 - **Universal Skills** — craft knowledge that works for any business (how to write ad copy, run experiments, do keyword research). Never changes between clients.
-- **Client Context** — your business specifics (ICP, brand voice, channels, metrics). Stored in `clients/[your-company].md`. Swap this for each new client.
+- **Client Context** — your business specifics (ICP, brand voice, channels, metrics). Stored in `clients/[your-company]/`. Swap this for each new client.
 
 Train the agents once. Deploy across clients by updating only the context.
+
+### Client Folder Structure
+
+Each client gets a complete workspace with 13 agent subfolders. All work product compounds here — agent folders hold only methodology.
+
+```
+clients/[your-company]/
+  context.md                    ← Business context (loaded with every agent)
+  setup-checklist.md            ← Track your onboarding progress
+  status.md                     ← Weekly dashboard across all agents
+  strategist/goals.md           ← North Star, 90-day OKRs
+  designer/brand-kit.md         ← Colors, fonts, logos, imagery
+  content-writer/brand-voice.md ← Tone, voice, language rules
+  content-writer/messaging-matrix.md ← ICP × pain × value prop × proof
+  researcher/icp-profiles.md    ← Full ICP segments
+  ... + 13 agent output folders
+```
+
+**4 brand foundation templates** are included — copy them into your client folder during onboarding. Without these, downstream agents guess instead of executing.
 
 ---
 
@@ -135,9 +154,19 @@ cd GrowthOS
 Go to `generators/` and run any generator — no setup required.
 
 ### 3. Set up your client context
-Copy `clients/_template.md` to `clients/[your-company].md` and fill it in. Or use the AI Setup Wizard in `SETUP.md` — answer 10 questions and it generates everything.
+Create `clients/[your-company]/` and copy `clients/_template.md` into it as `context.md`. Fill in your business details. Or use the AI Setup Wizard in `SETUP.md` — answer 10 questions and it generates everything. See `clients/_example.md` for a fully filled-in example.
 
-### 4. Start with 2-3 agents
+### 4. Fill in brand foundations
+Copy 4 templates into your client folder and complete them — these are what the agents actually reference:
+
+| Template | Copy To | What It Does |
+|---|---|---|
+| `04_growth-designer/brand-kit-template.md` | `designer/brand-kit.md` | Colors, fonts, logos, imagery, design system |
+| `02_content-writer/brand-voice-template.md` | `content-writer/brand-voice.md` | Tone, voice, language rules, do/don't examples |
+| `02_content-writer/messaging-matrix-template.md` | `content-writer/messaging-matrix.md` | ICP × pain points × value props × proof points |
+| `01_growth-researcher/icp-template.md` | `researcher/icp-profiles.md` | Full ICP segment profiles |
+
+### 5. Start with 2-3 agents
 Don't activate everything at once:
 
 | Week | Activate | Focus |
