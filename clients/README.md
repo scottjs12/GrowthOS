@@ -6,17 +6,23 @@ Each subfolder in this directory represents one client. All work product lives u
 
 ```
 clients/
-  _template.md              ← Copy this to start a new client
+  _template.md                    ← Copy this to start a new client
+  _example.md                     ← Filled-in example (Beacon Analytics)
   [client-name]/
-    context.md              ← Client context (loaded with every agent)
-    researcher/             ← ICP profiles, insight bank, research briefs
-    content-writer/         ← Ad copy, landing pages, email, copy bank, messaging matrix
-    cro/                    ← Hypotheses, LP audits, hypothesis log
-    paid/                   ← Media plan, creative testing
-    analytics/              ← Tracking plan
-    designer/               ← Assets
-    crm/                    ← Email sequences
-    ops/                    ← Launch checklist
+    context.md                    ← Client context (loaded with every agent)
+    strategist/                   ← Strategic decisions log
+    growth-pm/                    ← Experiment tracker, briefs
+    researcher/                   ← ICP profiles, insight bank, research briefs
+    content-writer/               ← Ad copy, landing pages, email, copy bank, messaging matrix
+    seo/                          ← Keyword universe, keyword research, content briefs
+    designer/                     ← Assets
+    cro/                          ← Hypotheses, LP audits, hypothesis log
+    paid/                         ← Media plan, creative testing
+    analytics/                    ← Tracking plan
+    crm/                          ← Email sequences
+    ops/                          ← Launch checklist
+    growth-engineer/              ← LP builds, tracking implementations
+    influencer-partnerships/      ← Partnership pipeline, creator files
 ```
 
 ## How It Works
