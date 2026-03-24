@@ -26,6 +26,7 @@
 
 ## Tips
 
+- **No client context yet?** You can still run any generator — just describe your product, ICP, and value prop inline when prompted for context. Set up `clients/[your-company].md` later for better results.
 - You can combine generators: run the **Competitive Analysis** → feed insights into **Ad Copy Generator** → feed copy into **Campaign Brief Generator**
 - Generators reference specific AGENT.md files — load those alongside for best results
 - Save outputs in the appropriate agent directory (e.g., ad copy → `02_content-writer/copy-bank.md`)

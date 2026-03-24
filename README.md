@@ -25,7 +25,7 @@ git clone https://github.com/scottjs12/GrowthOS.git
 cd GrowthOS
 ```
 
-Works best with [Claude Code](https://claude.ai/code) (the `CLAUDE.md` auto-routing handles agent selection), but every file works with any AI tool — just load the relevant AGENT.md as context.
+Works best with [Claude Code](https://claude.ai/code) (the `CLAUDE.md` auto-routing handles agent selection), but every file works with any AI tool — just load the relevant AGENT.md + your `clients/[company].md` file as context, then paste the prompt. See `clients/_example.md` for a fully filled-in example.
 
 ---
 
