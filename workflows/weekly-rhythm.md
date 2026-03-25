@@ -20,7 +20,7 @@
 - Set 3 priorities for the week
 
 ### Quick Actions (20 min)
-- Paid: Adjust budgets based on last week's performance (+25% winners, pause losers)
+- Paid: Run `06_growth-paid/skills/weekly-paid-review.md` — covers search terms, budgets, creative fatigue, and audience performance in one pass
 - CRM: Check ESP for delivery issues, bounces, unsubscribe spikes
 - Ops: Check lead queue — any MQLs waiting for routing?
 - Social: Reply to weekend comments/DMs

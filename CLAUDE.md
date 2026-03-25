@@ -95,6 +95,9 @@ When the user gives you a task, identify which agents are relevant and READ ONLY
 | **Generate hypothesis, audit landing page, CRO ideas** | `05_cro/AGENT.md` | `generators/cro-hypothesis-generator.md` |
 | **Generate campaign brief, plan campaign** | `00_growth-pm/AGENT.md` | `generators/campaign-brief-generator.md` |
 | **Generate competitive analysis, analyze competitors** | `01_growth-researcher/AGENT.md` | `generators/competitive-analysis-generator.md` |
+| **Search term mining, negative keywords, search terms** | `06_growth-paid/AGENT.md` | `06_growth-paid/skills/mine-search-terms.md` |
+| **Budget optimization, budget pacing, spend reallocation** | `06_growth-paid/AGENT.md` | `06_growth-paid/skills/budget-optimizer.md` |
+| **Weekly paid review, Monday paid check, account health** | `06_growth-paid/AGENT.md` | `06_growth-paid/skills/weekly-paid-review.md` |
 
 ### Loading Rules
 

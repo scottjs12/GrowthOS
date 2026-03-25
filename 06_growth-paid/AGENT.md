@@ -201,6 +201,22 @@ Before launching a campaign:
 
 ---
 
+## OPERATIONAL SKILLS
+
+> Structured workflows for recurring account management. Run these weekly or ad-hoc. See `06_growth-paid/skills/README.md` for details.
+
+| Skill | File | Cadence | What It Does |
+|---|---|---|---|
+| Mine Search Terms | `skills/mine-search-terms.md` | Weekly | Finds wasteful search terms, produces negatives + additions CSV |
+| Budget Optimizer | `skills/budget-optimizer.md` | Weekly | Analyzes spend vs. performance, recommends reallocations |
+| Weekly Paid Review | `skills/weekly-paid-review.md` | Every Monday | Full account health check combining all operational skills |
+
+**MCP requirement:** These skills work best with a Google Ads MCP server connected. Without it, paste exported data manually — the evaluation logic is the same.
+
+**Output location:** All skill outputs file to `clients/[client-name]/paid/ops/` with date-prefixed filenames.
+
+---
+
 ## QUALITY CRITERIA
 
 Before any campaign launches:
@@ -311,3 +327,4 @@ Before any campaign launches:
 | 2026-03-20 | Moved CLIENT CONTEXT to clients/ directory | Multi-client context system |
 | 2026-03-22 | Added Competitive Positioning Testing skill | Test positioning claims in paid creative before committing to messaging |
 | 2026-03-23 | Updated OUTPUT SPEC and body references to client-centric output directories | Work product now files to `clients/[client-name]/paid/` instead of `06_growth-paid/` |
+| 2026-03-25 | Added operational skills: mine-search-terms, budget-optimizer, weekly-paid-review | Turns Paid agent from strategy advisor to operational copilot with structured weekly workflows |
