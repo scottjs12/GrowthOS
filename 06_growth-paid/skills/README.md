@@ -1,6 +1,8 @@
 # Paid Ops Skills
 
 > Operational automation skills for the Paid agent. Each skill is a structured workflow that queries ad platform data (via MCP), applies evaluation criteria, and produces actionable outputs.
+>
+> **Credit:** Framework inspired by Austin's Google Ads MCP plugin pattern — turning the Paid agent from strategy advisor into operational copilot.
 
 ## Prerequisites
 
